@@ -1,0 +1,65 @@
+body {
+    background: none !important;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(44, 44, 44);
+    height: 600px;
+    width: 950px;
+    border: 2px solid aliceblue;
+    border-radius: 7px;
+    background-image: url(https://media.discordapp.net/attachments/864652742189907999/867799326415126578/1287687.jpg?width=1246&height=701);
+    border-radius: 50px;
+}
+
+button {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#submit {
+    box-shadow:inset -1px -5px 4px 2px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	padding:11px 41px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #3d768a;
+}
+
+#close {
+    box-shadow:inset -1px -5px 4px 2px #8b2727;
+	background:linear-gradient(to bottom, #de0732 5%, #2a030d 100%);
+	background-color:#599bb3;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	padding:11px 41px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #3d768a;
+}
+
+input {
+    border-radius: 30px;
+    margin-top: 30%;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+}
